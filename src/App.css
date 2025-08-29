@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+ }
+ 
+ table {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+ }
+ 
+ td, th {
+    margin: 0;
+    border: 0;
+    padding: 10px;
+ }
+ 
+ tr:nth-child(even) {
+    background-color: #eee;
+ }
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+li {
+    padding-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+  }
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+label {
+  margin-right: 10px;
+}
+
+span {
+  color: white;
+  background-color: blue;  
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 3px;
+}
+
+.not-part {
+  background-color:gray;
+}
+
+.correct {
+  background-color: forestgreen;  
+}
+
+.wrong-place {
+  background-color: goldenrod;  
+}
+
+
+
+.X {
+  color: red;
+}
+      
+.O {
+ color: blue;
+}
+
+#game-grid {
+  font: 85px arial, sans-serif;
+  margin: 3px;             
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+#game-grid > button {   
+   text-align: center;
+   font-size: 100%;
+   font-family: inherit;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rotateDiv {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
